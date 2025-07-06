@@ -27,3 +27,12 @@ An intelligent chatbot built using Retrieval-Augmented Generation (RAG) that all
 | RAG Framework       | LangChain                |
 | Embeddings          | SentenceTransformers     |
 | Vector Store        | ChromaDB                 |
+
+
+Set your Groq API key
+
+In groq_chain.py, replace:
+groq_api_key="YOUR_GROQ_API_KEY"
+
+pip install -r requirements.txt
+streamlit run app.py
